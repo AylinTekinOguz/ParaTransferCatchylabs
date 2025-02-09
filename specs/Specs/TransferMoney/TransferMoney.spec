@@ -251,24 +251,6 @@ tags: farkliHesaplarlaParaTransferiYapmaKontrolu
 * Send butonuna tıklanır
 * My account alanından "100" birim azaldığı kontrol edilir
 
-Farkli Hesaplarla Para Transferi Yapma Kontrolu
---------------------------------------------
-tags: farkliHesaplarlaParaTransferiYapmaKontrolu
-* Catchylabs login ekranının açıldığı kontrol edilir
-* Username alanına geçerli kullanıcı adı yazılır
-* Password alanına geçerli şifre yazılır
-* Login butonuna tıklanır
-* Başarılı login olunduğu kontrol edilir
-* Open Money Transfer butonuna tıklanır
-* My Account ekranının açıldığı kontrol edilir
-* Hesaptaki toplam tutar hafızaya kaydedilir
-* Transfer Money butonuna tıklanır
-* Transfer Money ekranının açıldığı kontrol edilir
-* Receiver account alanından rastgele seçim yapılır
-* Amount alanına "100" yazılır
-* Send butonuna tıklanır
-* My account alanından "100" birim azaldığı kontrol edilir
-
 Mevcut Hesap Tutarindan Fazla Para Transferi Yapma Kontrolu
 --------------------------------------------
 tags: mevcutHesapTutarindanFazlaParaTransferiYapmaKontrolu, regresyon
