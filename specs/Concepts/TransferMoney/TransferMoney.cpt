@@ -1,0 +1,75 @@
+# Transfer Money butonuna tıklanır
+* Elementine tıkla "transferMoneyButton"
+
+# Transfer Money ekranının açıldığı kontrol edilir
+* "transferMoneyBaslik" elementi ekranda gorunur mu kontrol et
+
+# Transfer Money ekranı kapat butonuna tıklanır
+* Elementine tıkla "transferMoneyExitButton"
+* "1" saniye bekle
+
+# Transfer Money ekranının kapandığı kontrol edilir
+* "transferMoneyBaslik" elementi ekranda gorunur degil mi kontrol et
+
+# Send butonuna tıklanamadığı kontrol edilir
+* "transferMoneyClickable" elementinin "aria-disabled" niteliği "true" değerini içeriyor mu
+
+# Amount alanına <amount> yazılır
+* "transferMoneyAmountInput" li elementi bul, temizle ve <amount> değerini yaz
+
+# Send butonuna tıklanır
+* Elementine tıkla "transferMoneySendButton"
+* "1" saniye bekle
+
+# Sender Account alanında yazan isim hafızaya kaydedilir
+* "transferMoneySenderAccount" li elementin text degeri hafizaya "sender" ismiyle kaydet
+
+# Transactions alanındaki son işlemde sender isminin doğru olduğu kontrol edilir
+* "transactionsSonIslemSender" li elementin text degeri hafizada kayitli olan "sender" degerini içeriyor mu
+
+# Receiver Account alanında yazan isim hafızaya kaydedilir
+* "transactionsSonIslemReceiverTestinium1" li elementin text degeri hafizaya "receiver" ismiyle kaydet
+
+# Transactions alanındaki son işlemde receiver isminin doğru olduğu kontrol edilir
+* "transactionsSonIslemReceiver" li elementin text degeri hafizada kayitli olan "receiver" degerini içeriyor mu
+
+# Transactions alanındaki son işlemde time alanının bugünün tarihi olduğu kontrol edilir
+* "transactionsSonIslemTime" keyli elementin texti bugünün tarihi mi kontrol et
+
+# Transactions alanındaki son işlemde amount alanının <transactionAmount> olduğu kontrol edilir
+* "1" saniye bekle
+* "transactionsSonIslemAmount" elementi <transactionAmount> değerini içeriyor mu kontrol et
+
+# Hesaptaki toplam tutar hafızaya kaydedilir
+* "amount" li elementin text degeri hafizaya "myAccountAmount" ismiyle kaydet
+
+# My account alanından <azalanTutar> birim azaldığı kontrol edilir
+* "myAccountAmount" - <azalanTutar> = "amount" isleminin dogrulugu kontrol edilir
+
+# Amount alanına string ifade yazılamadığı kontrol edilir
+* "transferMoneyAmountInput" elementinin "value" niteliği "" değerini içeriyor mu
+
+# Amount alanına özel karakter yazılamadığı kontrol edilir
+* "transferMoneyAmountInput" elementinin "value" niteliği "" değerini içeriyor mu
+
+# Toplam hesap tutarının değiştiği kontrol edilir
+* "amount" li elementin text degeri hafizada kayitli olan "myAccountAmount" degerini içermiyor mu
+
+# Uyarı mesajı görüntülenmediği kontrol edilir
+* Alert görüntülenmeme kontrolu
+
+# Uyarı mesajı görüntülendiği kontrol edilir
+* "1" saniye bekle
+* Alert görüntülenme kontrolu
+
+# Receiver account alanından rastgele seçim yapılır
+* Elementine tıkla "transferMoneyReceiverAccount"
+* "1" saniye bekle
+* "transferMoneyReceiverAccountList" menusünden random seçim yap
+
+# Amount alanına hafızadaki tutar + <arttirilacakTutar> yazılır
+* "transferMoneyAmountInput" elementine "myAccountAmount" + <arttirilacakTutar> değeri yazılır
+
+# Hesap tutarının eksi değere düşmediği kontrol edilir
+* "1" saniye bekle
+* "amount" elementi "-" değerini içermiyor mu kontrol et

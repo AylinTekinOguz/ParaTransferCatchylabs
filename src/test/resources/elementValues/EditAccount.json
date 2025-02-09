@@ -1,0 +1,27 @@
+[
+  {
+    "key": "editAccountText",
+    "value": "div.css-146c3p1.r-ubezar.r-vw2c0b",
+    "type": "css"
+  },
+  {
+    "key": "editAccountName",
+    "value": "input[autocapitalize='sentences']",
+    "type": "css"
+  },
+  {
+    "key": "editAccountUpdateButton",
+    "value": "//div[text()='UPDATE']",
+    "type": "xpath"
+  },
+  {
+    "key": "editAccountUpdateButtonClickable",
+    "value": "div.css-175oi2r.r-1i6wzkk.r-lrvibr.r-1awozwy.r-z2wwpe.r-h3s6tt.r-1777fci.r-tsynxw.r-13qz1uu.r-q0mhf2.r-12vffkv",
+    "type": "css"
+  },
+  {
+    "key": "editAccountExitButton",
+    "value": "div.css-146c3p1.r-lrvibr.r-1loqt21",
+    "type": "css"
+  }
+]

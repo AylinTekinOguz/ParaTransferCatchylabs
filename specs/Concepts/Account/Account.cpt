@@ -1,0 +1,39 @@
+# Open Money Transfer butonuna tıklanır
+* Elementine tıkla "openMoneyTransferButton"
+
+# My Account ekranının açıldığı kontrol edilir
+* "myAccount_text" elementi ekranda gorunur mu kontrol et
+
+# Hesap bilgilerinin görüntülendiği kontrol edilir
+* "accountName_Baslik" elementi ekranda gorunur mu kontrol et
+* "accountName" elementi ekranda gorunur mu kontrol et
+* "accountType_Baslik" elementi ekranda gorunur mu kontrol et
+* "accountType" elementi ekranda gorunur mu kontrol et
+* "creationTime_Baslik" elementi ekranda gorunur mu kontrol et
+* "creationTime" elementi ekranda gorunur mu kontrol et
+* "amount_Baslik" elementi ekranda gorunur mu kontrol et
+* "amount" elementi ekranda gorunur mu kontrol et
+
+# Account Type bilgisinin <accountType> olduğu kontrol edilir
+* "accountType" elementi <accountType> değerini içeriyor mu kontrol et
+
+# Transfer Money butonunun görüntülendiği kontrol edilir
+* "transferMoneyButton" elementi ekranda gorunur mu kontrol et
+
+# Add Money butonunun görüntülendiği kontrol edilir
+* "addMoneyButton" elementi ekranda gorunur mu kontrol et
+
+# Edit Account butonunun görüntülendiği kontrol edilir
+* "editAccountButton" elementi ekranda gorunur mu kontrol et
+
+# İşlemler bilgilerinin görüntülendiği kontrol edilir
+* "transaction_sender" elementi ekranda gorunur mu kontrol et
+* "transaction_receiver" elementi ekranda gorunur mu kontrol et
+* "transaction_time" elementi ekranda gorunur mu kontrol et
+* "transaction_amount" elementi ekranda gorunur mu kontrol et
+
+# Back butonuna tıklanır
+* Elementine tıkla "backButton"
+
+# My Account ekranından bir önceki sayfaya dönüldüğü kontrol edilir
+* "openMoneyTransferButton" elementi ekranda gorunur mu kontrol et

@@ -1,0 +1,47 @@
+[
+  {
+    "key": "catchylabs_logo",
+    "value": "div.css-175oi2r.r-1mlwlqe.r-1udh08x.r-417010",
+    "type": "css"
+  },
+  {
+    "key": "enterUsername_text",
+    "value": "//div[text()='Enter username*']",
+    "type": "xpath"
+  },
+  {
+    "key": "username_input",
+    "value": "input[placeholder='Username']",
+    "type": "css"
+  },
+  {
+    "key": "enterPassword_text",
+    "value": "//div[text()='Enter password*']",
+    "type": "xpath"
+  },
+  {
+    "key": "password_input",
+    "value": "input[placeholder='Password']",
+    "type": "css"
+  },
+  {
+    "key": "loginButton",
+    "value": "div.css-175oi2r.r-1i6wzkk.r-lrvibr.r-1loqt21.r-1otgn73.r-1awozwy.r-169ebfh.r-z2wwpe.r-h3s6tt.r-1777fci.r-tsynxw.r-13qz1uu",
+    "type": "css"
+  },
+  {
+    "key": "openMoneyTransferButton",
+    "value": "div.css-146c3p1.r-jwli3a.r-1b43r93",
+    "type": "css"
+  },
+  {
+    "key": "logoutButton",
+    "value": "div.css-146c3p1.r-jwli3a.r-vw2c0b.r-1d4mawv",
+    "type": "css"
+  },
+  {
+    "key": "invalidLoginMessage",
+    "value": "div.css-146c3p1.r-howw7u.r-1b43r93",
+    "type": "css"
+  }
+]

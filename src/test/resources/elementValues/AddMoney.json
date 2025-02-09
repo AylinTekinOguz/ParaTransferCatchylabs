@@ -1,0 +1,102 @@
+[
+  {
+    "key": "addMoneyEkraniBaslik",
+    "value": "div.css-146c3p1.r-ubezar.r-vw2c0b",
+    "type": "css"
+  },
+  {
+    "key": "addMoneyClosedButton",
+    "value": "div.css-146c3p1.r-lrvibr.r-1loqt21",
+    "type": "css"
+  },
+  {
+    "key": "addMoneyAddButton",
+    "value": "//div[text()='Add']",
+    "type": "xpath"
+  },
+  {
+    "key": "addMoneyCardNumberInput",
+    "value": "//div[text()='Card number']//..//input",
+    "type": "xpath"
+  },
+  {
+    "key": "addMoneyCardHolderInput",
+    "value": "//div[text()='Card holder']//..//input",
+    "type": "xpath"
+  },
+  {
+    "key": "addMoneyExpiryDateInput",
+    "value": "//div[text()='Expiry date']//..//input",
+    "type": "xpath"
+  },
+  {
+    "key": "addMoneyCVVInput",
+    "value": "//div[text()='CVV']//..//input",
+    "type": "xpath"
+  },
+  {
+    "key": "addMoneyAmountInput",
+    "value": "//div[text()='Amount']//..//input",
+    "type": "xpath"
+  },
+  {
+    "key": "addMoneyCardNumberRequired",
+    "value": "//div[text()='Card number']//..//div[text()='Required']",
+    "type": "xpath"
+  },
+  {
+    "key": "addMoneyCardHolderRequired",
+    "value": "//div[text()='Card holder']//..//div[text()='Required']",
+    "type": "xpath"
+  },
+  {
+    "key": "addMoneyExpiryDateRequired",
+    "value": "//div[text()='Expiry date']//..//div[text()='Required']",
+    "type": "xpath"
+  },
+  {
+    "key": "addMoneyCVVRequired",
+    "value": "//div[text()='CVV']//..//div[text()='Required']",
+    "type": "xpath"
+  },
+  {
+    "key": "addMoneyAmountRequired",
+    "value": "//div[text()='Amount']//..//div[text()='Required']",
+    "type": "xpath"
+  },
+  {
+    "key": "addMoneyCardNumberTooShortMessage",
+    "value": "//div[text()='Card number']//..//div[text()='Too Short!']",
+    "type": "xpath"
+  },
+  {
+    "key": "addMoneyCardNumberTooLongMessage",
+    "value": "//div[text()='Card number']//..//div[text()='Too Long!']",
+    "type": "xpath"
+  },
+  {
+    "key": "addMoneyCardHolderTooShortMessage",
+    "value": "//div[text()='Card holder']//..//div[text()='Too Short!']",
+    "type": "xpath"
+  },
+  {
+    "key": "addMoneyCardHolderTooLongMessage",
+    "value": "//div[text()='Card holder']//..//div[text()='Too Long!']",
+    "type": "xpath"
+  },
+  {
+    "key": "addMoneyExpiryDateWrongDateMessage",
+    "value": "(//div[text()='Expiry date']//..//div)[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "addMoneyCVVTooShortMessage",
+    "value": "//div[text()='CVV']//..//div[text()='Too short']",
+    "type": "xpath"
+  },
+  {
+    "key": "addMoneyAmountMustBeNumberMessage",
+    "value": "//div[text()='Amount']//..//div[contains(text(),'amount must be a `number`')]",
+    "type": "xpath"
+  }
+]

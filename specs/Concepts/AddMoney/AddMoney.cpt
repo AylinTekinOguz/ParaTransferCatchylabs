@@ -1,0 +1,204 @@
+# Add Money butonuna tıklanır
+* Elementine tıkla "addMoneyButton"
+
+# Add Money ekranının açıldığı kontrol edilir
+* "addMoneyEkraniBaslik" elementi ekranda gorunur mu kontrol et
+
+# Add Money ekranı kapat butonuna tıklanır
+* Elementine tıkla "addMoneyClosedButton"
+
+# Add Money ekranının kapandığı kontrol edilir
+* "addMoneyEkraniBaslik" elementi ekranda gorunur degil mi kontrol et
+
+# Add butonuna tıklanır
+* "addMoneyAddButton" Elementine kadar kaydır
+* Elementine tıkla "addMoneyAddButton"
+
+# Giriş yapılması gereken tüm alanlarda Required mesajı görüntülendiği kontrol edilir
+* "addMoneyCardNumberRequired" elementi ekranda gorunur mu kontrol et
+* "addMoneyCardHolderRequired" elementi ekranda gorunur mu kontrol et
+* "addMoneyExpiryDateRequired" elementi ekranda gorunur mu kontrol et
+* "addMoneyCVVRequired" elementi ekranda gorunur mu kontrol et
+* "addMoneyAmountRequired" elementi ekranda gorunur mu kontrol et
+
+# Card Holder, Expiry Date, CVV ve Amount alanlarında Required mesajı görüntülendiği kontrol edilir
+* "addMoneyCardNumberRequired" elementi ekranda gorunur degil mi kontrol et
+* "addMoneyCardHolderRequired" elementi ekranda gorunur mu kontrol et
+* "addMoneyExpiryDateRequired" elementi ekranda gorunur mu kontrol et
+* "addMoneyCVVRequired" elementi ekranda gorunur mu kontrol et
+* "addMoneyAmountRequired" elementi ekranda gorunur mu kontrol et
+
+# Card Number, Expiry Date, CVV ve Amount alanlarında Required mesajı görüntülendiği kontrol edilir
+* "addMoneyCardNumberRequired" elementi ekranda gorunur mu kontrol et
+* "addMoneyCardHolderRequired" elementi ekranda gorunur degil mi kontrol et
+* "addMoneyExpiryDateRequired" elementi ekranda gorunur mu kontrol et
+* "addMoneyCVVRequired" elementi ekranda gorunur mu kontrol et
+* "addMoneyAmountRequired" elementi ekranda gorunur mu kontrol et
+
+# Card Number, Card Holder, CVV ve Amount alanlarında Required mesajı görüntülendiği kontrol edilir
+* "addMoneyCardNumberRequired" elementi ekranda gorunur mu kontrol et
+* "addMoneyCardHolderRequired" elementi ekranda gorunur mu kontrol et
+* "addMoneyExpiryDateRequired" elementi ekranda gorunur degil mi kontrol et
+* "addMoneyCVVRequired" elementi ekranda gorunur mu kontrol et
+* "addMoneyAmountRequired" elementi ekranda gorunur mu kontrol et
+
+# Card Number, Card Holder, Expiry Date ve Amount alanlarında Required mesajı görüntülendiği kontrol edilir
+* "addMoneyCardNumberRequired" elementi ekranda gorunur mu kontrol et
+* "addMoneyCardHolderRequired" elementi ekranda gorunur mu kontrol et
+* "addMoneyExpiryDateRequired" elementi ekranda gorunur mu kontrol et
+* "addMoneyCVVRequired" elementi ekranda gorunur degil mi kontrol et
+* "addMoneyAmountRequired" elementi ekranda gorunur mu kontrol et
+
+# Card Number, Card Holder, Expiry Date ve CVV alanlarında Required mesajı görüntülendiği kontrol edilir
+* "addMoneyCardNumberRequired" elementi ekranda gorunur mu kontrol et
+* "addMoneyCardHolderRequired" elementi ekranda gorunur mu kontrol et
+* "addMoneyExpiryDateRequired" elementi ekranda gorunur mu kontrol et
+* "addMoneyCVVRequired" elementi ekranda gorunur mu kontrol et
+* "addMoneyAmountRequired" elementi ekranda gorunur degil mi kontrol et
+
+# Card Number alanında Required mesajı görüntülendiği kontrol edilir
+* "addMoneyCardNumberRequired" elementi ekranda gorunur mu kontrol et
+* "addMoneyCardHolderRequired" elementi ekranda gorunur degil mi kontrol et
+* "addMoneyExpiryDateRequired" elementi ekranda gorunur degil mi kontrol et
+* "addMoneyCVVRequired" elementi ekranda gorunur degil mi kontrol et
+* "addMoneyAmountRequired" elementi ekranda gorunur degil mi kontrol et
+
+# Card Holder alanında Required mesajı görüntülendiği kontrol edilir
+* "addMoneyCardNumberRequired" elementi ekranda gorunur degil mi kontrol et
+* "addMoneyCardHolderRequired" elementi ekranda gorunur mu kontrol et
+* "addMoneyExpiryDateRequired" elementi ekranda gorunur degil mi kontrol et
+* "addMoneyCVVRequired" elementi ekranda gorunur degil mi kontrol et
+* "addMoneyAmountRequired" elementi ekranda gorunur degil mi kontrol et
+
+# Expiry Date alanında Required mesajı görüntülendiği kontrol edilir
+* "addMoneyCardNumberRequired" elementi ekranda gorunur degil mi kontrol et
+* "addMoneyCardHolderRequired" elementi ekranda gorunur degil mi kontrol et
+* "addMoneyExpiryDateRequired" elementi ekranda gorunur mu kontrol et
+* "addMoneyCVVRequired" elementi ekranda gorunur degil mi kontrol et
+* "addMoneyAmountRequired" elementi ekranda gorunur degil mi kontrol et
+
+# CVV alanında Required mesajı görüntülendiği kontrol edilir
+* "addMoneyCardNumberRequired" elementi ekranda gorunur degil mi kontrol et
+* "addMoneyCardHolderRequired" elementi ekranda gorunur degil mi kontrol et
+* "addMoneyExpiryDateRequired" elementi ekranda gorunur degil mi kontrol et
+* "addMoneyCVVRequired" elementi ekranda gorunur mu kontrol et
+* "addMoneyAmountRequired" elementi ekranda gorunur degil mi kontrol et
+
+# Amount alanında Required mesajı görüntülendiği kontrol edilir
+* "addMoneyCardNumberRequired" elementi ekranda gorunur degil mi kontrol et
+* "addMoneyCardHolderRequired" elementi ekranda gorunur degil mi kontrol et
+* "addMoneyExpiryDateRequired" elementi ekranda gorunur degil mi kontrol et
+* "addMoneyCVVRequired" elementi ekranda gorunur degil mi kontrol et
+* "addMoneyAmountRequired" elementi ekranda gorunur mu kontrol et
+
+# Add Money ekranı Card Number alanına <cardNumber> yazılır
+* "addMoneyCardNumberInput" li elementi bul, temizle ve <cardNumber> değerini yaz
+
+# Add Money ekranı Card Holder alanına <cardHolder> yazılır
+* "addMoneyCardHolderInput" li elementi bul, temizle ve <cardHolder> değerini yaz
+
+# Add Money ekranı Expiry date alanına <expiryDate> yazılır
+* Elementine tıkla "addMoneyExpiryDateInput"
+* "addMoneyExpiryDateInput" li elementi bul, temizle ve <expiryDate> değerini yaz
+
+
+# Add Money ekranı CVV alanına <cvv> yazılır
+* "addMoneyCVVInput" li elementi bul, temizle ve <cvv> değerini yaz
+
+# Add Money ekranı Amount alanına <amount> yazılır
+* "addMoneyAmountInput" li elementi bul, temizle ve <amount> değerini yaz
+
+# Card number alanına string ifade yazılamadığı kontrol edilir
+* "addMoneyCardNumberInput" elementinin "value" niteliği "" değerini içeriyor mu
+
+# Card number alanına ozel karakter yazılamadığı kontrol edilir
+* "addMoneyCardNumberInput" elementinin "value" niteliği "" değerini içeriyor mu
+
+# Card number alanına bosluk yazılamadığı kontrol edilir
+* "addMoneyCardNumberInput" elementinin "value" niteliği "" değerini içeriyor mu
+
+# Card holder alanına nümerik değer yazılamadığı kontrol edilir
+* "addMoneyCardHolderInput" elementinin "value" niteliği "" değerini içeriyor mu
+
+# Card holder alanına sadece boşluk yazılarak işlem yapılamadığı kontrol edilir
+* "2" saniye bekle
+* "addMoneyEkraniBaslik" elementi ekranda gorunur mu kontrol et
+
+# Card holder alanına ozel karakter yazılamadığı kontrol edilir
+* "addMoneyCardHolderInput" elementinin "value" niteliği "" değerini içeriyor mu
+
+# Expiry date alanına ozel karakter yazılamadığı kontrol edilir
+* "addMoneyExpiryDateInput" elementinin "value" niteliği "" değerini içeriyor mu
+
+# Expiry date alanına string ifade yazılamadığı kontrol edilir
+* "addMoneyExpiryDateInput" elementinin "value" niteliği "" değerini içeriyor mu
+
+# Expiry date alanına bosluk yazılamadığı kontrol edilir
+* "addMoneyExpiryDateInput" elementinin "value" niteliği "" değerini içeriyor mu
+
+# CVV alanında string ifade girilemediği kontrol edilir
+* "addMoneyCVVInput" elementinin "value" niteliği "" değerini içeriyor mu
+
+# CVV alanında özel karakter girilemediği kontrol edilir
+* "addMoneyCVVInput" elementinin "value" niteliği "" değerini içeriyor mu
+
+# CVV alanında boşluk girilemediği kontrol edilir
+* "addMoneyCVVInput" elementinin "value" niteliği "" değerini içeriyor mu
+
+# Expiry date alanına <expiryDateMessage> mesajının görüntülendiği kontrol edilir
+* Elementine tıkla "addMoneyEkraniBaslik"
+* "addMoneyExpiryDateWrongDateMessage" elementi <expiryDateMessage> değerini içeriyor mu kontrol et
+
+# Card number alanında Too Short! mesajı görüntülendiği kontrol edilir
+* Elementine tıkla "addMoneyCardHolderInput"
+* "addMoneyCardNumberTooShortMessage" elementi ekranda gorunur mu kontrol et
+
+# Add Money ekranı Card Number alanına 1-15 karakter arasında rastgele sayı yazılır
+* "addMoneyCardNumberInput" elementine 1 ile "15" karakter arasi rastgele sayı yaz
+* "3" saniye bekle
+
+# Card number alanında Too Long! mesajı görüntülendiği kontrol edilir
+* Elementine tıkla "addMoneyCardHolderInput"
+* "addMoneyCardNumberTooLongMessage" elementi ekranda gorunur mu kontrol et
+
+# Card holder alanında Too Short! mesajı görüntülendiği kontrol edilir
+* Elementine tıkla "addMoneyEkraniBaslik"
+* "addMoneyCardHolderTooShortMessage" elementi ekranda gorunur mu kontrol et
+
+# Card holder alanında mesajı görüntülenmediği kontrol edilir
+* Elementine tıkla "addMoneyEkraniBaslik"
+* "addMoneyCardHolderTooShortMessage" elementi ekranda gorunur degil mi kontrol et
+* "addMoneyCardHolderTooLongMessage" elementi ekranda gorunur degil mi kontrol et
+
+# Add Money ekranı Card Holder alanına 5-30 karakterli ifade yazılır
+* "addMoneyCardHolderInput" elementine 1 ile "30" karakter arasi rastgele text yaz
+
+# Card holder alanında Too Long! mesajı görüntülendiği kontrol edilir
+* Alertü kabul et
+* Elementine tıkla "addMoneyEkraniBaslik"
+* "addMoneyCardHolderTooLongMessage" elementi ekranda gorunur mu kontrol et
+
+# CVV alanında Too Short! mesajı görüntülendiği kontrol edilir
+* Elementine tıkla "addMoneyEkraniBaslik"
+* "addMoneyCVVTooShortMessage" elementi ekranda gorunur mu kontrol et
+
+# Amount alanında <message> mesajının görüntülendiği kontrol edilir
+* Elementine tıkla "addMoneyEkraniBaslik"
+* "addMoneyAmountMustBeNumberMessage" elementi ekranda gorunur mu kontrol et
+
+# İşlemin gerçekleşmediği kontrol edilir
+* "1" saniye bekle
+* "addMoneyEkraniBaslik" elementi ekranda gorunur mu kontrol et
+
+# Transactions alanındaki son işlemde sender alanında <kartSahibi> görüntülendiği kontrol edilir
+* "1" saniye bekle
+* "transactionsSonIslemSender" elementi <kartSahibi> değerini içeriyor mu kontrol et
+
+# Transactions alanındaki son işlemde Receiver alanında yazan isim ile my account alanında yazan account namein aymı olduğu kontrol edilir
+* "accountName" li elementin text degeri hafizaya "accountName" ismiyle kaydet
+* "transaction_receiver" li elementin text degerini hafizada kayitli olan "accountName" degeriyle karsilastir
+
+# My account alanından <yuklenenTutar> birim arttığı kontrol edilir
+* "2" saniye bekle
+* "myAccountAmount" + <yuklenenTutar> = "amount" isleminin dogrulugu kontrol edilir
+

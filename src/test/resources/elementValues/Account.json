@@ -1,0 +1,87 @@
+[
+  {
+    "key": "myAccount_text",
+    "value": "div.css-146c3p1.r-1gknse6.r-1b43r93",
+    "type": "css"
+  },
+  {
+    "key": "accountName_Baslik",
+    "value": "//div[text()='Account name']",
+    "type": "xpath"
+  },
+  {
+    "key": "accountName",
+    "value": "//div[text()='Account name']/..//div[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "accountType_Baslik",
+    "value": "//div[text()='Account type']",
+    "type": "xpath"
+  },
+  {
+    "key": "accountType",
+    "value": "//div[text()='Account type']/..//div[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "creationTime_Baslik",
+    "value": "//div[text()='Creation time']",
+    "type": "xpath"
+  },
+  {
+    "key": "creationTime",
+    "value": "//div[text()='Creation time']/..//div[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "amount_Baslik",
+    "value": "//div[text()='Amount']",
+    "type": "xpath"
+  },
+  {
+    "key": "amount",
+    "value": "//div[text()='Amount']/..//div[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "transferMoneyButton",
+    "value": "//div[text()='Transfer money']",
+    "type": "xpath"
+  },
+  {
+    "key": "addMoneyButton",
+    "value": "//div[text()='Add money']",
+    "type": "xpath"
+  },
+  {
+    "key": "editAccountButton",
+    "value": "//div[text()='Edit account']",
+    "type": "xpath"
+  },
+  {
+    "key": "transaction_sender",
+    "value": "//div[text()='Sender:']//..//div[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "transaction_receiver",
+    "value": "//div[text()='Receiver:']//..//div[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "transaction_time",
+    "value": "//div[text()='Time:']//..//div[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "transaction_amount",
+    "value": "//div[text()='Amount:']//..//div[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "backButton",
+    "value": "div.css-146c3p1.r-jwli3a.r-vw2c0b.r-13hce6t",
+    "type": "css"
+  }
+]

@@ -1,0 +1,35 @@
+# Catchylabs login ekranının açıldığı kontrol edilir
+* "catchylabs_logo" elementi ekranda gorunur mu kontrol et
+* "enterUsername_text" elementi ekranda gorunur mu kontrol et
+* "enterPassword_text" elementi ekranda gorunur mu kontrol et
+* "username_input" elementi ekranda gorunur mu kontrol et
+* "password_input" elementi ekranda gorunur mu kontrol et
+* "loginButton" elementi ekranda gorunur mu kontrol et
+
+# Username alanına geçerli kullanıcı adı yazılır
+* "username_input" li elementi bul, temizle ve "aylin.tekinoguz" değerini yaz
+
+# Password alanına geçerli şifre yazılır
+* "password_input" li elementi bul, temizle ve "280423Ac*" değerini yaz
+
+# Login butonuna tıklanır
+* Elementine tıkla "loginButton"
+
+# Başarılı login olunduğu kontrol edilir
+* "openMoneyTransferButton" elementi ekranda gorunur mu kontrol et
+* "logoutButton" elementi ekranda gorunur mu kontrol et
+
+# Password alanına geçersiz şifre yazılır
+* "password_input" li elementi bul, temizle ve "test" değerini yaz
+
+# Username alanına geçersiz kullanıcı adı yazılır
+* "username_input" li elementi bul, temizle ve "test" değerini yaz
+
+# <message> mesajının görüntülendiği kontrol edilir
+* "invalidLoginMessage" elementi <message> değerini içeriyor mu kontrol et
+
+# Logout butonuna tıklanır
+* Elementine tıkla "logoutButton"
+
+# Başarılı logout olunduğu kontrol edilir
+* "loginButton" elementi ekranda gorunur mu kontrol et

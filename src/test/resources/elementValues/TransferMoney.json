@@ -1,0 +1,67 @@
+[
+  {
+    "key": "transferMoneyBaslik",
+    "value": "div.css-146c3p1.r-ubezar.r-vw2c0b",
+    "type": "css"
+  },
+  {
+    "key": "transferMoneyExitButton",
+    "value": "div.css-146c3p1.r-lrvibr.r-1loqt21",
+    "type": "css"
+  },
+  {
+    "key": "transferMoneyClickable",
+    "value": "div.css-175oi2r.r-1i6wzkk.r-lrvibr.r-1awozwy.r-z2wwpe.r-h3s6tt.r-1777fci.r-tsynxw.r-13qz1uu.r-q0mhf2.r-12vffkv",
+    "type": "css"
+  },
+  {
+    "key": "transferMoneyAmountInput",
+    "value": "input.css-11aywtz.r-6taxm2.r-1eh6qqt.r-z2wwpe.r-rs99b7.r-h3s6tt.r-1qhn6m8",
+    "type": "css"
+  },
+  {
+    "key": "transferMoneySendButton",
+    "value": "//div[text()='Send']",
+    "type": "xpath"
+  },
+  {
+    "key": "transferMoneySenderAccount",
+    "value": "select>option[value='06b0d0a7-c289-45fb-ba48-c3778e7864b8']",
+    "type": "css"
+  },
+  {
+    "key": "transactionsSonIslemSender",
+    "value": "(//div[text()='Sender:']//..//div[2])[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "transactionsSonIslemReceiver",
+    "value": "(//div[text()='Receiver:']//..//div[2])[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "transactionsSonIslemTime",
+    "value": "(//div[text()='Time:']//..//div[2])[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "transactionsSonIslemAmount",
+    "value": "(//div[text()='Amount:']//..//div[2])[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "transactionsSonIslemReceiverTestinium1",
+    "value": "option[value='528e70c4-381b-4331-9955-e77a9bf72660']",
+    "type": "css"
+  },
+  {
+    "key": "transferMoneyReceiverAccount",
+    "value": "(//option[text()='Testinium-1']//..//..)[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "transferMoneyReceiverAccountList",
+    "value": "//option[contains(text(),'Testinium')]",
+    "type": "xpath"
+  }
+]

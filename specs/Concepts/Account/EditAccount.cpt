@@ -1,0 +1,43 @@
+# Edit Account butonuna tıklanır
+* Elementine tıkla "editAccountButton"
+
+# Edit Account ekranının açıldığı kontrol edilir
+* "editAccountText" elementi ekranda gorunur mu kontrol et
+
+# Account name alanına rastgele isim girilir
+* "editAccountName" li elementi bul, temizle rastgele isim soyisim yaz ve hafizaya "saveUsername" olarak kaydet
+
+# Edit Account ekranı update butonuna tıklanır
+* Elementine tıkla "editAccountUpdateButton"
+* "1" saniye bekle
+
+# Hesap bilgilerinde ismin güncellendiği kontrol edilir
+* "accountName" li elementin text degerini hafizada kayitli olan "saveUsername" degeriyle karsilastir
+
+# Edit Account ekranı kapat butonuna tıklanır
+* Elementine tıkla "editAccountExitButton"
+* "1" saniye bekle
+
+# Edit Account ekranının kapandığı kontrol edilir
+* "editAccountText" elementi ekranda gorunur degil mi kontrol et
+* "editAccountUpdateButton" elementi ekranda gorunur degil mi kontrol et
+
+# Account name alanında yazan isim silinir
+* "editAccountName" li elementi bul, temizle ve " " değerini yaz
+* "editAccountName" elementini bul ve temizle
+* "1" saniye bekle
+
+# Update butonuna tıklanamadığı kontrol edilir
+* "editAccountUpdateButtonClickable" elementi ekranda gorunur mu kontrol et
+* "editAccountUpdateButtonClickable" elementinin "aria-disabled" niteliği "true" değerini içeriyor mu
+
+# Account name alanında yazan isim silinir ve space ile boşluk yazılır
+* "editAccountName" li elementi bul, temizle ve " " değerini yaz
+* "1" saniye bekle
+
+# Account name alanına <ozelKarakter> yazılır
+* "editAccountName" li elementi bul, temizle ve <ozelKarakter> değerini yaz
+* "1" saniye bekle
+
+# Hesap isminin <isim> olduğu kontrol edilir
+* "accountName" elementi <isim> değerini içeriyor mu kontrol et
